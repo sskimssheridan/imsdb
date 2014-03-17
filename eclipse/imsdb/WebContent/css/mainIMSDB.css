@@ -1,0 +1,73 @@
+@CHARSET "ISO-8859-1";
+
+#mainView
+{
+	height:100%;
+	width:100%;
+}
+
+#logoBar
+{
+	height:20%;
+}
+
+#workingBar
+{
+	width:90%;
+	vertical-align: top;
+	horizontal-aligh: center;
+}
+
+#menuBar
+{
+	width:10%;
+	vertical-align: top;
+}
+
+.required 
+{
+	color:red;
+}
+
+.error
+{
+	color:red;
+}
+
+#welcomeMsg
+{
+	text-align:right;
+	font-weight:bolder;
+	font-size:x-small;
+}
+.btnSubmit
+{
+	width:100%;
+}
+#loginAs, #campusID, #categoryID, #labID, #manufacturerID, #supplierID, #orderStatus, #displayBarcodeID,
+#EmployeeRole, #employeeRole
+{
+	width:100%;
+}
+.field
+{
+	font-weight:bold;
+}
+.itemSerachDiv, .orderSerachDiv
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+tr.itemCheckoutShowTableRow > td
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#alertTabs
+{
+	font-size: 75%;
+}
+#barcodeImage
+{
+	text-align:center;
+}
